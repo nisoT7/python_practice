@@ -4,7 +4,7 @@ if [ $# != 0 ]; then
     git commit -m "$1"
 else
     datetime= date '+%Y_%m_%d_%H:%M:%S'
-    git commit -m "$echo datetime"
+    git commit -m --date
 fi
 
 git push -u origin master
