@@ -1,4 +1,5 @@
 #!/bin/sh
+
 git add -A
 
 if [ $# != 0 ]; then
